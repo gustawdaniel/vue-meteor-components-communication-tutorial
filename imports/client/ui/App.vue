@@ -15,6 +15,7 @@
                 <tr><td>Dom</td><td><ADom></ADom></td><td><BDom></BDom></td></tr>
                 <tr><td>Event Bus</td><td><ABus></ABus></td><td><BBus></BBus></td></tr>
                 <tr><td>Vuex</td><td><AVuex></AVuex></td><td><BVuex></BVuex></td></tr>
+                <tr><td>Tracker</td><td><ATracker></ATracker></td><td><BTracker></BTracker></td></tr>
             </tbody>
         </table>
 
@@ -28,9 +29,11 @@
     import BBus from './event-bus/Out';
     import AVuex from './vuex/In';
     import BVuex from './vuex/Out';
+    import ATracker from './tracker/In';
+    import BTracker from './tracker/Out';
 
     export default {
         name: "App",
-        components: { ADom, BDom, ABus, BBus, AVuex, BVuex }
+        components: { ADom, BDom, ABus, BBus, AVuex, BVuex, ATracker, BTracker }
     }
 </script>
