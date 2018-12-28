@@ -14,6 +14,7 @@
             <tbody>
                 <tr><td>Dom</td><td><ADom></ADom></td><td><BDom></BDom></td></tr>
                 <tr><td>Event Bus</td><td><ABus></ABus></td><td><BBus></BBus></td></tr>
+                <tr><td>Vuex</td><td><AVuex></AVuex></td><td><BVuex></BVuex></td></tr>
             </tbody>
         </table>
 
@@ -25,9 +26,11 @@
     import BDom from './dom/Out';
     import ABus from './event-bus/In';
     import BBus from './event-bus/Out';
+    import AVuex from './vuex/In';
+    import BVuex from './vuex/Out';
 
     export default {
         name: "App",
-        components: { ADom, BDom, ABus, BBus }
+        components: { ADom, BDom, ABus, BBus, AVuex, BVuex }
     }
 </script>
