@@ -1,6 +1,6 @@
 <template>
 
-    <p class="m-2" id="dom-target">{{value}}</p>
+    <p class="m-2">{{value}}</p>
 
 </template>
 
